@@ -7,19 +7,25 @@
     
     
     //named function way 
-     function replaceFirstParagraph(){
+  //   function replaceFirstParagraph(){
          
-        var firstParagraph; 
+    //    var firstParagraph; 
         
-        firstParagraph = document.getElementById("firstParagraph");
+      //  firstParagraph = document.getElementById("firstParagraph");
         
-        firstParagraph.innerHTML = "MY New Paragraph Data"
+      //  firstParagraph.innerHTML = "MY New Paragraph Data"
    
-     }
+  //   }
     // call the replaced first paragrapgh function 
-    replaceFirstParagraph(); 
+   // replaceFirstParagraph(); 
     
     
+    
+     var firstParagraph; 
+    
+    firstParagraph = document.getElementById("firstParagraph");
+    
+    firstParagraph.innerHTML = "MY New Paragraph Data"
 
     
     
